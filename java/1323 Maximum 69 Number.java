@@ -1,10 +1,12 @@
-1221. Split a String in Balanced Strings
+/*
+1323. Maximum 69 Number
 **********
 Problem Link : https://leetcode.com/problems/maximum-69-number/
 Submission : https://leetcode.com/submissions/detail/302708989/
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Maximum 69 Number.
 Memory Usage: 36.3 MB, less than 100.00% of Java online submissions for Maximum 69 Number.
 **********
+*/
 class Solution {
     public int maximum69Number (int num) {
         int rev=0,rev1=0,count=0;
