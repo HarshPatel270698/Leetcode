@@ -10,6 +10,6 @@ class Solution(object):
         s=0
         a=list(str(n))
         for i in range(len(a)):
-            m*=int(a[i])
+            m=int(a[i])*m
             s+=int(a[i])
         return m-s
