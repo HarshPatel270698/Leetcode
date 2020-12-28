@@ -7,4 +7,3 @@ Memory Usage: 14.5 MB
 class Solution(object):
     def countNegatives(self, grid):
         return str(grid).count('-')
-        
