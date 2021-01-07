@@ -23,10 +23,10 @@ class Solution(object):
                     a+=dict[s[i]]
             else:
                 c-=1
-        if s[len(s)-1:len(s)]!='#':
-            if s[len(s)-2:len(s)-1]=='#':
-                a+=dict[s[len(s)-1:len(s)]]
+        if s[len(s)-1]!='#':
+            if s[len(s)-2]=='#':
+                a+=dict[s[len(s)-1]]
             else:
-                a+=dict[s[len(s)-2:len(s)-1]]
-                a+=dict[s[len(s)-1:len(s)]]
+                a+=dict[s[len(s)-2]]
+                a+=dict[s[len(s)-1]]
         return a
